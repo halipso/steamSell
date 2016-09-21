@@ -4,14 +4,14 @@ Node.js library for selling items on Steam Marketplace
 # Installation
 
 ```js
-var steamSell = require('./steamSell/index.js');
+var SteamSell = require('./steamSell/index.js');
 ```
 
 # Usage
 Instantiate a instagram object...
 
 ```js
-var sell = new steamSell();
+var sell = new SteamSell();
 ```
 
 ...then setup session with Steam cookies:
